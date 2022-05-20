@@ -15,8 +15,8 @@
 
     "scripts": {
         "setup": [
-            "echo \"includes:\" > phpstan.neon",
-            "echo \"    - phpstan.neon.dist\" >> phpstan.neon",
+            "echo includes:> phpstan.neon",
+            "echo     - phpstan.neon.dist>> phpstan.neon",
             "composer install"
         ],
         "phpstan": "vendor/bin/phpstan analyze -c phpstan.neon"
