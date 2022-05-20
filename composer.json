@@ -4,7 +4,7 @@
     "name": "diamondstrider1/plugin-template",
     "description": "A template for a pocketmine plugin.",
     "type": "project",
-    "license": "MIT",
+    "license": "Unlicense",
 
     "require": {
 		"pocketmine/pocketmine-mp": "4.0.0"
