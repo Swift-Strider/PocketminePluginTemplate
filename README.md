@@ -6,6 +6,7 @@ A template for building pocketmine plugins!
 
 1. Run `composer setup` to add a phpstan configuration (phpstan.neon file).
 1. Rename folders `src/Author/TemplatePlugin` to `src/<AuthorName>/<PluginName>`.
+1. Update the namespace of `Main.php`.
 1. In plugin.yml change `name`, `author`, and `main`.
 1. Select a license, and place it in the file `LICENSE`.
 1. In composer.json change `name`, `description`, and `license`.
