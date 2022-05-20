@@ -12,9 +12,10 @@ jobs:
           - "8.0"
     steps:
       - uses: actions/checkout@v2
-      - uses: shivammathur/setup-php@v2
+      - uses: pmmp/setup-php-action@247e08acd52c1465f8f144c162c88f079d8c1174
         with:
-          php-version: ${{matrix.php-version}}
+          php-version: ${{ matrix.php }}
+          install-path: "./bin"
       - name: phpstan configure
         run: |
           cp .github/phpstan.neon.ci phpstan.neon
